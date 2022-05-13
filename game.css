@@ -1,0 +1,49 @@
+body{
+    background-color: #ccc;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: solid black;
+}
+.options{
+    display: flex;
+    justify-content: center;
+}
+.Result{
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+}
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 10rem;
+    transition: 100ms;
+    /*color: black;*/
+  }
+  
+  .selection:hover {
+    transform: scale(1.4);
+  }
+#result{
+    color: blueviolet;
+    font-size: 40px;
+}
+#left-side,#s_1,#s_2,#right-side{
+    display: flex;
+    justify-content: center;
+}
+
+/*
+.Rock{
+    text-align: center;
+}
+.Paper{
+    text-align: center;
+}
+.Scissor{
+    text-align: center;
+}*/
